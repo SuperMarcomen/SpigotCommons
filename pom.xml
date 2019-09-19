@@ -9,6 +9,10 @@
   	<name>Spigot Commons</name>
   	<description>A Spigot library for plugin development</description>
   	
+	<properties>
+    	<powermock.version>1.7.4</powermock.version>
+	</properties>
+  	
   	<repositories>
   		<!--Spigot Repo-->
     	<repository>
@@ -31,6 +35,20 @@
            	<version>1.8.8-R0.1-SNAPSHOT</version>
         	<scope>provided</scope>
     	</dependency>
+    	
+    	<dependency>
+      		<groupId>org.powermock</groupId>
+      		<artifactId>powermock-module-junit4-legacy</artifactId>
+      		<version>${powermock.version}</version>
+      		<scope>test</scope>
+   		</dependency>
+   	
+	   	<dependency>
+	      	<groupId>org.powermock</groupId>
+	      	<artifactId>powermock-api-mockito</artifactId>
+	      	<version>${powermock.version}</version>
+	      	<scope>test</scope>
+	   	</dependency>
 	</dependencies>
 	
 	<build>
