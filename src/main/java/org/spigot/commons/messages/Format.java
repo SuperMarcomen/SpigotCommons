@@ -56,8 +56,9 @@ public class Format extends ArrayList<ChatColor> {
 	 * 
 	 * @param c the color char
 	 */
-	public void setColorChar(char c) {
+	public Format setColorChar(char c) {
 		this.colorChar = c;
+		return this;
 	}
 	
 	/**
