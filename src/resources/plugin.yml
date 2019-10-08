@@ -1,0 +1,6 @@
+name: SpigotCommonsLib
+version: 0.0.1-SNAPSHOT
+author:
+  - SuperMarcomen
+  - Mrtecno98
+main: org.spigot.commons
